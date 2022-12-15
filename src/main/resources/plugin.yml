@@ -1,0 +1,16 @@
+name: GermFashionAddon
+version: ${project.version}
+main: com.heypixel.germfashionaddon.GermFashionAddon
+authors: [ Miku_Snow ]
+description: 萌芽时装管理附属插件
+
+softdepend:
+  - PlaceholderAPI
+  - GermPlugin
+commands:
+  germfashionaddon:
+    aliases:
+      - gfs
+      - gfashion
+      - gfa
+      - gfas

@@ -1,0 +1,18 @@
+message:
+  help:
+    - "================插件帮助================"
+    - "  /gfs try <player> <skin> [seconds]- 使指定玩家试穿时装"
+    - "  /gfs unlock <player> <skin> <day> - 使指定玩家解锁时装"
+    - "  /gfs equip <player> <skin> - 穿戴指定时装"
+  equip:
+    take_on: "§b梦世界 §l>> §a您已穿上 §e%skin% §a时装!"
+    take_off: "§b梦世界 §l>> §c您已脱下 §e%skin% §c时装!"
+    no_skin: "§b梦世界 §l>> §c您还未解锁当前时装!"
+    none_skin: "§b梦世界 §l>> §c时装输入有误!"
+  unlock: "§b梦世界 §l>> §a你成功获得§e [display] - [time]§a天."
+
+dataSource:
+  disabled: false
+  url: jdbc:mysql://netease-db-01.i5mc.com/test
+  user: root
+  password: wowsuchapasswd
